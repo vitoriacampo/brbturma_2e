@@ -1,4 +1,4 @@
-.cabeçalho_menu-hunburger{
+.cabeçalho__menu-hunburger{
     width: 24px;
     height: 24px;
     background-image: url(../img/menu.svg);
@@ -31,22 +31,22 @@
     width: 60vw;            /* --------*/
 }
 
-.container_botao:checked ~ .lista-menu{
+.container__botao:checked ~ .lista-menu{
     display: block;
 }
 
-.lista-menu_titulo,
+.lista-menu__-titulo,
 .lista-menu_item{
     padding: 1em;
     background-color: var(--branco);
 }
 
-.lista-menu_titulo{
+.lista-menu__titulo{
     color: var(--laranja);
     font-weight: 700;
 }
 
-.lista-menu_link{
+.lista-menu__link{
     background: var(--azul-degrade);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
